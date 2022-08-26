@@ -12,7 +12,7 @@ namespace StringCalculator
             "\n"
         };
 
-        /// <exception cref="ArgumentException">This exception is thrown if negatives numbers was passed.</exception>
+        /// <exception cref="ArgumentException">This exception is thrown if negative numbers were passed.</exception>
         public static int Add(string numbers)
         {
             if (string.IsNullOrEmpty(numbers))
